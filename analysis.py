@@ -22,3 +22,8 @@ plt.xlabel("Students")
 plt.ylabel("Average Marks")
 plt.title("Students Average Marks")
 plt.show()
+# Find Top Student
+top_student = df.loc[df["Average"].idxmax()]
+
+print("\nTop Student:")
+print(top_student)
